@@ -12,8 +12,8 @@ var setupRoutes = function(app){
 	app.get('/Game/:gameTitle', controllers.Score.gamePage);
 
 	// Leaderboard API handling
-	app.get('API/Scores/:gameTitle', controllers.Score.scoresForGame);
-	app.post('API/Scores', controllers.Score.addScore);
+	app.get('/API/Scores/:gameTitle', controllers.Score.scoresForGame);
+	app.post('/API/Scores', controllers.Score.addScore);
 
 	// 404 Handling
 	app.use(function(req, res, next) {

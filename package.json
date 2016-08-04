@@ -4,7 +4,7 @@
   "description": "A simple leaderboards implementation for use in Game Jams and other non-official events.",
   "main": "./src/app.js",
   "scripts": {
-    "start": "node ./src/app.js",
+    "start": "clear; node ./src/app.js",
     "pretest": "jshint ./src",
     "test": "echo \"tests complete\""
   },
@@ -31,7 +31,6 @@
     "bcrypt": "^0.8.7",
     "body-parser": "^1.15.2",
     "compression": "^1.6.2",
-    "cookie-parser": "^1.4.3",
     "express": "^4.14.0",
     "mongoose": "^4.5.8",
     "pug": "^2.0.0-beta4",

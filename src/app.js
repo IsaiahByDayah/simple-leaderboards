@@ -4,10 +4,10 @@ var express = require('express');
 var compression = require('compression');
 var favicon = require('serve-favicon');
 var pug = require('pug');
-var cookieparser = require('cookie-parser');
-var socketio = require('socket.io');
 var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
+// Set promise for mongoose
+mongoose.Promise = global.Promise;
 var url = require('url');
 
 var dbURL = process.env.MONGOLAB_URI || "mongodb://localhost/simple-leaderboards";
@@ -30,6 +30,7 @@ app.use(compression());
 app.use(bodyParser.urlencoded({
 	extended: true
 }));
+app.use(bodyParser.json());
 app.use(express.static(path.resolve(__dirname + '/../public')));
 app.set('view engine', 'pug');
 app.set('views', __dirname + '/views');

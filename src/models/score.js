@@ -26,7 +26,7 @@ var ScoreSchema = new mongoose.Schema({
 });
 
 // Instance Methods
-ShipmentSchema.methods.toAPI = function(callback) {
+ScoreSchema.methods.toAPI = function(callback) {
 	callback(null, {
 		value: this.value,
 		user: this.user

@@ -1,0 +1,27 @@
+#content {
+	font-weight: 300;
+}
+
+#home-tagline {
+	margin-top: 2em;
+}
+
+#home-video-preview {
+	width: 100%;
+}
+
+#home-images {
+	margin-top: 3em;
+	margin-bottom: 5em;
+}
+
+.home-image {
+	height: 5em;
+	width: auto;
+	margin: auto 5%;
+}
+
+#home-signup-button {
+	margin-top: 3em;
+	margin-bottom: 3em;
+}
