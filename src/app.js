@@ -10,7 +10,7 @@ var mongoose = require('mongoose');
 mongoose.Promise = global.Promise;
 var url = require('url');
 
-var dbURL = process.env.MONGOLAB_URI || "mongodb://localhost/simple-leaderboards";
+var dbURL = process.env.MONGODB_URI || "mongodb://localhost/simple-leaderboards";
 
 var db = mongoose.connect(dbURL, function(err){
 	if (err) {
