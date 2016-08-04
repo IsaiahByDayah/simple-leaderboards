@@ -1,0 +1,28 @@
+{
+  "name": "simple-leaderboards",
+  "version": "0.0.1",
+  "description": "A simple leaderboards implementation for use in Game Jams and other non-official events.",
+  "main": "./src/app.js",
+  "scripts": {
+    "test": "echo \\\"tests complete\\\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jordankid93/simple-leaderboards.git"
+  },
+  "keywords": [
+    "Video",
+    "Game",
+    "Jam",
+    "Leader",
+    "Board",
+    "Leaderboards",
+    "Simple"
+  ],
+  "author": "Isaiah Smith (@jordankid93)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jordankid93/simple-leaderboards/issues"
+  },
+  "homepage": "https://github.com/jordankid93/simple-leaderboards#readme"
+}
