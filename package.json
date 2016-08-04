@@ -4,7 +4,9 @@
   "description": "A simple leaderboards implementation for use in Game Jams and other non-official events.",
   "main": "./src/app.js",
   "scripts": {
-    "test": "echo \\\"tests complete\\\""
+    "start": "node ./src/app.js",
+    "pretest": "jshint ./src",
+    "test": "echo \"tests complete\""
   },
   "repository": {
     "type": "git",
@@ -24,5 +26,23 @@
   "bugs": {
     "url": "https://github.com/jordankid93/simple-leaderboards/issues"
   },
-  "homepage": "https://github.com/jordankid93/simple-leaderboards#readme"
+  "homepage": "https://github.com/jordankid93/simple-leaderboards#readme",
+  "dependencies": {
+    "bcrypt": "^0.8.7",
+    "body-parser": "^1.15.2",
+    "compression": "^1.6.2",
+    "connect-redis": "^3.1.0",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.14.0",
+    "express-session": "^1.14.0",
+    "mongoose": "^4.5.8",
+    "pug": "^2.0.0-beta4",
+    "request": "^2.74.0",
+    "serve-favicon": "^2.3.0",
+    "socket.io": "^1.4.8",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "jshint": "^2.9.2"
+  }
 }
