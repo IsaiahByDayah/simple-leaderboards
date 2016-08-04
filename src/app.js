@@ -31,10 +31,10 @@ app.use(bodyParser.urlencoded({
 	extended: true
 }));
 app.use(bodyParser.json());
-app.use(express.static(path.resolve(__dirname + '/../public')));
+// app.use(express.static(path.resolve(__dirname + '/../public')));
 app.set('view engine', 'pug');
 app.set('views', __dirname + '/views');
-app.use(favicon(__dirname + '/../public/images/Favicon.png'));
+// app.use(favicon(__dirname + '/../public/images/Favicon.png'));
 
 // Setup Routes
 router.setupRoutes(app);

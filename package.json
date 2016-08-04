@@ -28,7 +28,6 @@
   },
   "homepage": "https://github.com/jordankid93/simple-leaderboards#readme",
   "dependencies": {
-    "bcrypt": "^0.8.7",
     "body-parser": "^1.15.2",
     "compression": "^1.6.2",
     "express": "^4.14.0",
