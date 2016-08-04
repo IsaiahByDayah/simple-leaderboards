@@ -53,7 +53,7 @@ app.use(session({
         port: redisURL.port,
         pass: redisPASS
     }),
-    secret: "You've Got Mail",
+    secret: private.sessionSecret, // String
     resave: true,
     saveUninitialized: true
 }));
