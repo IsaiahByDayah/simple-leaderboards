@@ -10,5 +10,6 @@ To post a new score you pust include the following data:
 - game [String - name of game score is to be filed under]
 - value [String - score value]
 - user [String - name to be associated with the score]
+
 ### NOTE
 The scores are always retrieved in descending order (highest to lowest) so in the event of smaller scores being better (ie: golf, time trials, etc) submit the negative of the values and use the positive value when displayed
